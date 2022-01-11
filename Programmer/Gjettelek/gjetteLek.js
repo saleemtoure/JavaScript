@@ -9,7 +9,7 @@ svar om det er større enn mindre helt til den er større
 
 function gjettTall(dittTall){
     dittTall = document.getElementById("tall").value;
-  // dittTall = window.prompt("Gjett ett tall: ");
+  // fant en annen måte å gjøre det på dittTall = window.prompt("Gjett ett tall: ");
     let input =document.getElementById("tall");
     input.addEventListener("keyup", function(event){
         if (event.key===13){
@@ -19,7 +19,7 @@ function gjettTall(dittTall){
     });
 
     if (dittTall == randomTall){
-        //window.alert(`Du har gjettet helt riktig!! ${dittTall} = ${randomTall}`);
+        // fant en annen måte å gjøre det på window.alert(`Du har gjettet helt riktig!! ${dittTall} = ${randomTall}`);
         document.getElementById("resultat").innerHTML="Du har gjettet helt riktig! Skriv inn ett nytt tall for å prøve igjen";
         randomTall=Math.floor(Math.random()*100)+1;
         console.log(randomTall); //for å senere sjekke om det stemmer
