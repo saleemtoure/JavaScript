@@ -1,16 +1,21 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="no">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>gjetteLek</title>
+    <link rel="stylesheet" href="gjetteLek.css">
 </head>
 <body>
-    <button type ="button" onclick="gjettTall(dittTall)">
-        Knappen
+    <div>
+
+    <input type="number" min="1" max="100" name="" id="tall" placeholder="Skriv inn ett tall mellom 1 og 100" onkeypress="javascript: if(event.keyCode == 13) gjettTall(dittTall)"></input>
+    <button id="runScript" type ="button" onclick="gjettTall(dittTall)">
     </button>
-    <script src="/gjetteLek.js">
+    <p id="resultat"></p>
+    </div>
+    <script src="gjetteLek.js">
     </script>
 </body>
 </html>
