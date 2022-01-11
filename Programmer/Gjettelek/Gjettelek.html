@@ -6,16 +6,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>gjetteLek</title>
     <link rel="stylesheet" href="gjetteLek.css">
-    <!--lol-->
+    <link rel="icon" type="image/png" sizes="32x32" href="ikon.png"/>
 </head>
 <body>
-    <div>
 
-    <input type="number" min="1" max="100" name="" id="tall" placeholder="Skriv inn ett tall mellom 1 og 100" onkeypress="javascript: if(event.keyCode == 13) gjettTall(dittTall)"></input>
-    <button id="runScript" type ="button" onclick="gjettTall(dittTall)">
-    </button>
+    
+    <div id="gjettBoks">
+    <h1>Gjett et tall mellom <br>1 og 100</h1>
+    <input type="number" min="1" max="100" name="" id="tall" placeholder="Gjett" onkeypress="javascript: if(event.keyCode == 13) gjettTall(dittTall)"></input>
+    <button id="runScript" type ="button" onclick="gjettTall(dittTall)">Trykk her</button>
     <p id="resultat"></p>
     </div>
+
     <script src="gjetteLek.js">
     </script>
 </body>

@@ -39,9 +39,6 @@ function gjettTall(dittTall){
     else if (dittTall > 100) {
       alert("Tallet ditt er større enn 100. Skriv inn ett nytt tall for å prøve igjen")    
     }
-    else if(dittTall ==""){
-
-    }
 }
 
 
