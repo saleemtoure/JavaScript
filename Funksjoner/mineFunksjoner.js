@@ -6,3 +6,5 @@ function sammenlignFunksjon(a, b) {
 tall.sort(sammenlignFunksjon);
 console.log(tall);
 // Skriver ut: [1, 4, 14, 41, 82, 101]
+
+// Profile lookup
