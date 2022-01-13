@@ -42,7 +42,7 @@ body {
     justify-content: space-evenly;
     align-items: center;
 }
-h1,#resultat{
+h1,#resultat,#forsøk{
     color: springgreen;
     background-color: black;
     padding: 20px;
@@ -51,6 +51,12 @@ h1,#resultat{
     font-size: 1.5rem;
     line-height: 1.5;
 }
+#forsøk{
+    padding: 10px;
+    font-weight: normal;
+    font-size: 1rem;
+}
+
 h1:hover, #resultat:hover{
     color: greenyellow;
 }
