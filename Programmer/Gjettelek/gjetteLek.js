@@ -30,7 +30,7 @@ function gjettTall(dittTall){
         console.log(telling)
         document.getElementById("forsøk").innerHTML=`Du klarte det på forsøk: ${telling}`;
         telling=0;
-        andomTall=Math.floor(Math.random()*100)+1;
+        randomTall=Math.floor(Math.random()*100)+1;
         console.log(randomTall); //for å senere sjekke om det stemmer
     }
     else if (dittTall<randomTall && dittTall > 0){
