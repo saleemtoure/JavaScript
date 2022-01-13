@@ -1,0 +1,1 @@
+// spillet 24 . du får 4 tall og skal få 24

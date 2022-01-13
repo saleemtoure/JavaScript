@@ -22,41 +22,44 @@ body {
 body {
 	width: 100%;
 	font-family: var(--font);
-    overflow: hidden;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-image: url("https://www.teahub.io/photos/full/67-675796_neon-question-mark-lamp.jpg");
-    background-size: cover;
-    background-color: springgreen;
+	overflow: hidden;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-image: url('https://www.teahub.io/photos/full/67-675796_neon-question-mark-lamp.jpg');
+	background-size: cover;
+	background-color: springgreen;
 }
 
-#gjettBoks{
-    text-align: center;
-    background-color: rgb(0,0,0,0.9);
-    min-height: 200px;
-    height: 300px;
-    min-width: 400px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center;
+#gjettBoks {
+	text-align: center;
+	background-color: rgb(0, 0, 0, 0.9);
+	min-height: 200px;
+	height: 300px;
+	min-width: 400px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	align-items: center;
 }
-h1,#resultat,#forsøk{
-    color: springgreen;
-    background-color: black;
-    padding: 20px;
-    width: 50%;
-    font-weight: bold;
-    font-size: 1.5rem;
-    line-height: 1.5;
+h1,
+#resultat,
+#forsøk {
+	color: springgreen;
+	background-color: black;
+	padding: 20px;
+	width: 50%;
+	font-weight: bold;
+	font-size: 1.5rem;
+	line-height: 1.5;
 }
-#forsøk{
-    padding: 10px;
-    font-weight: normal;
-    font-size: 1rem;
+#forsøk {
+	padding: 10px;
+	font-weight: normal;
+	font-size: 1rem;
 }
 
-h1:hover, #resultat:hover{
-    color: greenyellow;
+h1:hover,
+#resultat:hover {
+	color: greenyellow;
 }
