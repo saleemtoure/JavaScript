@@ -10,9 +10,6 @@ svar om det er større enn mindre helt til den er større
 
 function gjettTall(dittTall){
     dittTall = document.getElementById("tall").value;
-  // fant en annen måte å gjøre det på dittTall = window.prompt("Gjett ett tall: ");
-
-
 
     let input =document.getElementById("tall");
     input.addEventListener("keyup", function(event){
