@@ -30,16 +30,19 @@
             console.log(`Tellingen er ${telling}`) //DeBugging
             console.log(`DU HAR GJETTET RIKTIG KODE ${kode}`);
             console.log(`Du klarte det på forsøk: ${telling}. Refresh siden for å spille igjen!` );
-        };
+            break;
+        }else if (dinKode!=dittTall > 0){
+            // window.alert(`${},`); noe sånn som du har så sp mange riktige og så magnge feil eller rktig plass blabalbal
+            telling ++;
+            console.log(`Tellingen er ${telling}`) //DeBugging
+            console.log(`DU HAR GJETTET FEIL KODE er ikke like ${kode}`);
+         }
 
         /*
         let fireFarger=FARGER.slice(-4).toUpperCase();
         console.log(fireFarger); husker ikke hva det her var*/ 
     }
     shuffle(FARGER);
-
-
- 
 /*
 
     else if (dittTall<randomTall && dittTall > 0){
